@@ -1,3 +1,5 @@
+URxvt*font: xft:Monospace:pixelsize=21
+URxvt*boldFont: xft:Monospace:bold:pixelsize=18 
 URxvt*letterSpace: 0
 URxvt*saveLines: 12000
 URxvt*scrollBar: false
