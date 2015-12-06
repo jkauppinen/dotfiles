@@ -9,5 +9,6 @@ fi
 
 urxvtd -q -o -f
 start-pulseaudio-x11
-feh --bg-scale ~/Kuvat/Vzh77Je.jpg
+feh --bg-scale ~/Kuvat/rocZ8AA.jpg
+xbindkeys
 exec i3
