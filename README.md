@@ -1,1 +1,1 @@
-Collection of dotfiles. Optimized for Lenovo T420
+Collection of dotfiles. Optimized for Thinkpad x260
