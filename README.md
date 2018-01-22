@@ -1,1 +1,1 @@
-Collection of dotfiles. Optimized for Thinkpad x260
+Collection of my dotfiles
