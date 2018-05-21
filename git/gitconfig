@@ -1,0 +1,12 @@
+[user]
+	email = jeremias.kauppinen@gmail.com
+	name = Jeremias Kauppinen
+[core]
+	editor = vim
+	pager = /usr/share/git/diff-highlight/diff-highlight | less -r
+[color]
+	ui = true
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
