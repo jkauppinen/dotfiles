@@ -12,6 +12,7 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 
 # Create symlinks
 
+ln -sfv "$DOTFILES_DIR/vim/vimrc" ~/.vimrc
 ln -sfv "$DOTFILES_DIR/git/gitconfig" ~/.gitconfig
 ln -sfv "$DOTFILES_DIR/X/xinitrc" ~/.xinitrc
 ln -sfv "$DOTFILES_DIR/X/XResources" ~/.XResources
