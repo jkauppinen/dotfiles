@@ -12,4 +12,6 @@ promptinit
 
 autoload -Uz compinit
 compinit
+
+export PATH="$(yarn global bin):$PATH"
 # End of lines added by compinstall
