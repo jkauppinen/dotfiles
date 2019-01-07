@@ -13,5 +13,8 @@ promptinit
 autoload -Uz compinit
 compinit
 
-export PATH="$(yarn global bin):$PATH"
+export DOTNET_ROOT=/opt/dotnet
+export MSBuildSDKsPath="${DOTNET_ROOT}/sdk/$(${DOTNET_ROOT})/dotnet --version)/Sdks"
+export PATH="$DOTNET_ROOT:$(yarn global bin):$PATH"
+
 # End of lines added by compinstall
