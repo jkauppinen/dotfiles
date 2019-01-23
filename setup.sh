@@ -12,6 +12,10 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 
 # Create symlinks
 
+ln -sfv "$DOTFILES_DIR/polybar/config" ~/.config/polybar/config
+ln -sfv "$DOTFILES_DIR/scripts/polybar.sh" ~/.config/polybar/launch.sh
+ln -sfv "$DOTFILES_DIR/i3/config" ~/.config/i3/config
+ln -sfv "$DOTFILES_DIR/i3status/config" ~/.config/i3status/config
 ln -sfv "$DOTFILES_DIR/vim/vimrc" ~/.vimrc
 ln -sfv "$DOTFILES_DIR/git/gitconfig" ~/.gitconfig
 ln -sfv "$DOTFILES_DIR/X/xinitrc" ~/.xinitrc

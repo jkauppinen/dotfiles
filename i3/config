@@ -18,6 +18,7 @@ font pango:monospace 8
 # Toggle between laptop mode and external screen
 # exec_always ~/Documents/git/bash-scripts/toggle-screens.sh
 exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/wallpapers/1080p/*
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -25,6 +26,7 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec urxvtc
 bindsym $mod+i exec firefox
+bindsym $mod+t exec thunar
 bindsym $mod+shift+v exec code
 bindsym $mod+Shift+bracketleft move workspace to output left
 bindsym $mod+Shift+bracketright move workspace to output right
@@ -148,6 +150,6 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+#bar {
+#        status_command i3status
+#}
